@@ -3,6 +3,11 @@
 #include <stdio.h>
 
 int main() {
-    //Enter your code here
+    char name[50];
+
+    printf("Enter your name: ");
+    scanf("%s", name);
+
+    printf("\nHello %s! Welcome to the world of C programming.\n", name);
     return 0;
 }
